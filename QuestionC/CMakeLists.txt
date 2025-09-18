@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.10)
+project(SimpleBehaviorTree)
+find_library(BEHAVIOR_TREE_LIBRARY NAMES behaviortree_cpp PATHS /usr/local/lib)
+find_library(ZMQ_LIBRARY NAMES zmq)
+add_executable(demo src/demo.cpp)
+target_include_directories(demo PRIVATE /usr/local/include)
+target_link_libraries(demo PRIVATE ${BEHAVIOR_TREE_LIBRARY} ${ZMQ_LIBRARY})

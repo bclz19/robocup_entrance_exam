@@ -1,0 +1,3 @@
+/home/bclz19/QuestionC/build/CMakeFiles/demo.dir
+/home/bclz19/QuestionC/build/CMakeFiles/edit_cache.dir
+/home/bclz19/QuestionC/build/CMakeFiles/rebuild_cache.dir
