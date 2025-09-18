@@ -1,6 +1,6 @@
 ---
 puppeteer:
-    timeout: 30000
+    timeout: 3000
 ---
 
 # A题解题思路
@@ -26,7 +26,7 @@ puppeteer:
 
 那我们继续分析，一图胜千言（我们把z坐标轴当成主光轴）：
 
-!![alt text](image-1.png)
+!![alt text](figure/image-1.png)
 
 ok，同理Y_c也可以这么算出来。
 
@@ -34,8 +34,8 @@ ok，同理Y_c也可以这么算出来。
 
 $$
 \begin{cases}
-    \begin{split} \frac{X_c}{Z_c} = \frac{u-c_x}{f_x}
-    
+    \begin{split} 
+    \frac{X_c}{Z_c} = \frac{u-c_x}{f_x}
     \end{split}
     \\
     \begin{split}
@@ -67,8 +67,7 @@ $$
 
 $$
 \left[\begin{array}{c}
-^cP \\
-1
+^cP \\1
 \end{array}\right]
 
 = \left[\begin{array}{c}
@@ -77,10 +76,8 @@ $$
 \end{array}\right]
 
 \left[\begin{array}{c}
-^wP \\
-1
+^wP \\ 1
 \end{array}\right]
-
 $$
 
 写在字母左上角的表示参考坐标系
